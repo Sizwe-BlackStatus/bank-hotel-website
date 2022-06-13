@@ -1,0 +1,26 @@
+.navbar {
+    flex: 0.3 1;
+}
+
+.navbar-links {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  list-style: none;
+}
+
+.navbar-link {
+    width: 133px;
+    height: 20px;
+    font-family: var(--font-headers);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFCF6;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+}

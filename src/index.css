@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("http://fonts.cdnfonts.com/css/helvetica-neue-lt-std-55");
+@import url("//db.onlinewebfonts.com/c/eb92b08f7e042d8413e6bc061d7058af?family=Miracle");
+:root {
+  --color-white: #fffcf6;
+  --color-yellow: #fcd043;
+  --color-green: #313f38;
+  --font-headers: "Helvetica Neue LT Std";
+  --font-hero: "Miracle", sans serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
 }
+
+

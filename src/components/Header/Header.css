@@ -1,0 +1,38 @@
+.header-container {
+  display: flex;
+  position: relative;
+  top: 40px;
+  height: 24px;
+}
+
+.header-logo {
+    flex: 0.4 1;
+}
+
+.header-text {
+  position: relative;
+  top: 0;
+  font-family: var(--font-headers);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #fffcf6;
+}
+
+.header-contacts {
+  flex: 0.4 1;
+  position: relative;
+}
+
+.contacts {
+  text-align: right;
+  font-family: var(--font-headers);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  color: #fffcf6;
+}
